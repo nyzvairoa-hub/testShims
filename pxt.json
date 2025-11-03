@@ -1,0 +1,23 @@
+{
+    "name": "MathShims",
+    "description": "A low-latency C++ extension for the Kalman Filter project.",
+    "files": [
+        "shim.ts",
+        "shim.cpp"  
+    ],
+    "dependencies": {
+        "core": "*"
+    },
+    "testFiles": [
+        "test.ts"
+    ],
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "enabled": 0
+                }
+            }
+        }
+    }
+}
